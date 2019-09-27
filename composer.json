@@ -1,0 +1,18 @@
+{
+    "name": "writethesky/websocket-client",
+    "description": "基于swoole的websocket客户端，websocket client",
+    "authors": [
+        {
+            "name": "writethesky",
+            "email": "writethesky@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "writethesky\\WebSocketClient\\": "src/"
+        }
+    },
+    "require": {
+        "sabre/uri": "^2.1"
+    }
+}
