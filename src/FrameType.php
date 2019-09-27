@@ -4,6 +4,7 @@ namespace writethesky\WebSocketClient;
 class FrameType
 {
     const MAPS = [
+        '0000' => 'continue',
         '0001' => 'text',
         '0010' => 'bin',
         '1000' => 'close',
